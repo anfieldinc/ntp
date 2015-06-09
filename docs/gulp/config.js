@@ -1,4 +1,4 @@
-var dest = '../../../Web';
+var dest = '~/Web';
 var src = './src';
 var mui = '../src';
 
