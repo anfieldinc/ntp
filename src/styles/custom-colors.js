@@ -5,6 +5,6 @@
 module.exports = {
 
   irRed:        '#d52b1e',
-  testColor:    '#ff3366'
-  
+  testColor:    '#ff3366',
+  irGray:		'#999999'
 };

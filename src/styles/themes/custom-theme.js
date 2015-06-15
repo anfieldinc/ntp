@@ -14,12 +14,12 @@ var CustomTheme = {
   contentFontFamily: 'Roboto, sans-serif',
   getPalette: function() {
     return {
-      primary1Color: Colors.cyan500,
-      primary2Color: Colors.cyan700,
-      primary3Color: Colors.cyan100,
-      accent1Color: Colors.pinkA200,
-      accent2Color: Colors.pinkA400,
-      accent3Color: CustomColors.testColor,
+      primary1Color: CustomColors.irRed, // Colors.cyan500
+      primary2Color: CustomColors.irGray, // Colors.cyan700
+      primary3Color: CustomColors.irGray, // Colors.cyan100
+      accent1Color: CustomColors.irRed, // Colors.pinkA200,
+      accent2Color: CustomColors.irRed, // Colors.pinkA400,
+      accent3Color: CustomColors.irRed,
       textColor: Colors.darkBlack,
       canvasColor: Colors.white,
       borderColor: Colors.grey300,
