@@ -78,8 +78,7 @@ class Master extends React.Component {
 
         <FullWidthSection style={styles.footer}>
           <p style={styles.p}>
-            Hand crafted with love by the engineers at <a style={styles.a} href="http://call-em-all.com">Call-Em-All</a> and our
-            awesome <a style={styles.a} href="https://github.com/callemall/material-ui/graphs/contributors">contributors</a>.
+            © <a style={styles.a} href="http://ingersollrand.com">Ingersoll-Rand</a> plc, 2015.
           </p>
           {githubButton}
         </FullWidthSection>

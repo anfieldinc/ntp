@@ -103,9 +103,8 @@ var HomePage = React.createClass({
           <div style={styles.tagline}>
             <h1 style={styles.h1}>New Technology Process</h1>
             <h2 style={styles.h2}>
-              A Set of React Components <span style={styles.nowrap}>
-              that Implement</span> <span style={styles.nowrap}>
-              Google&apos;s Material Design</span>
+              Some words about <span style={styles.nowrap}>
+              this Tool</span>
             </h2>
             <RaisedButton 
               className="demo-button" 
@@ -148,13 +147,7 @@ var HomePage = React.createClass({
 
     return (
       <FullWidthSection style={styles.root} useContent={true} contentStyle={styles.content} contentType="p" className="home-purpose">
-        Material-UI came about from our love of&nbsp;
-        <a href="http://facebook.github.io/react/">React</a> and&nbsp;
-        <a href="https://www.google.com/design/spec/material-design/introduction.html">
-          Google's Material Design
-        </a>. We're currently using it on a project at&nbsp;
-        <a href="https://www.call-em-all.com/">Call-Em-All</a> and plan on adding to it 
-        and making it better in the coming months.
+        Blah  blah blah some more words I guess
       </FullWidthSection>
     );
   },
@@ -163,9 +156,9 @@ var HomePage = React.createClass({
     var styles = {maxWidth: '906px'};
     return (
       <FullWidthSection useContent={true} contentStyle={styles}>
-        <HomeFeature heading="Get Started" route="get-started" img="images/get-started.svg" firstChild={true}/>
-        <HomeFeature heading="Customization" route="customization" img="images/css-framework.svg" />
-        <HomeFeature heading="Components" route="components" img="images/components.svg" lastChild={true}/>
+        <HomeFeature heading="Section A" route="get-started" img="images/get-started.svg" firstChild={true}/>
+        <HomeFeature heading="Section B" route="customization" img="images/css-framework.svg" />
+        <HomeFeature heading="Section C" route="components" img="images/components.svg" lastChild={true}/>
       </FullWidthSection>
     );
   },
@@ -189,7 +182,7 @@ var HomePage = React.createClass({
     return (
       <FullWidthSection useContent={true} style={styles.root}>
         <h3 style={styles.h3}>
-          Want to help make this <span style={styles.nowrap}>project awesome?</span> <span style={styles.nowrap}>Check out our repo.</span>
+          Words above a footer button.
         </h3>
         <RaisedButton label="GitHub" primary={true} linkButton={true} href="https://github.com/callemall/material-ui" style={styles.button}/>
       </FullWidthSection>
